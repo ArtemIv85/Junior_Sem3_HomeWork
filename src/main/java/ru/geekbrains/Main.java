@@ -33,7 +33,7 @@ public class Main {
 
             //Чтение объекта из базы данных
             Person retrievedPerson = session.get(Person.class, person.getId());
-            System.out.println("Object person retrieved successfully");
+            System.out.println("Объект Person восстановлен");
             System.out.println("Retrived person object: "+ retrievedPerson);
 
 
